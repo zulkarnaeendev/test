@@ -21,7 +21,7 @@ const Router = createBrowserRouter([
     ],
   },
 ], {
-  basename: "/Test",
+  basename: "/test",
 });
 
 export default Router;
