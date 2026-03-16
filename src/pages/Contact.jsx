@@ -1,8 +1,6 @@
 import React from 'react';
 
-const Contact = () => {
-
-  const ContactLink = ({ label, value, hasArrow = false }) => (
+const ContactLink = ({ label, value, hasArrow = false }) => (
     <div className="flex flex-col mb-8 group cursor-pointer">
       <span className="text-[10px] text-gray-500 tracking-widest mb-1 group-hover:text-orange-500 transition-all duration-300">
         {label}
@@ -16,6 +14,7 @@ const Contact = () => {
     </div>
   );
 
+const Contact = () => {
   return (
     <div className="min-h-screen bg-grain overflow-hidden flex flex-col font-sans">
       <div className="grow grid grid-cols-12">
