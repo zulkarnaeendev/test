@@ -1,5 +1,4 @@
 import React from 'react'
-import { ArrowRight } from "lucide-react";
 import SideLabel from "../components/SideLabel";
 
 const Blog = () => {
@@ -35,8 +34,8 @@ const Blog = () => {
           </div>
           <div className="flex items-center gap-6">
             <span className="text-sm text-gray-400">View all works</span>
-            <button className="bg-orange-500 hover:bg-orange-600 p-4 rounded-full">
-              <ArrowRight size={18} />
+            <button className="h-14 w-28 bg-orange-500 rounded-full flex items-center justify-center hover:scale-105 transition-transform duration-300">
+              <span className="text-white text-lg">→</span>
             </button>
           </div>
         </div>

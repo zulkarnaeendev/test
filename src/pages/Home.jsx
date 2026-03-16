@@ -19,8 +19,9 @@ const Home = () => {
           Hello, my name is Paterson and I am UX/UI designer and
           front-end developer working with web for 9 years.
         </p>
-        <button className="mt-10 flex items-center gap-3 bg-orange-500 hover:bg-orange-600 px-6 py-3 w-fit rounded-full">
-          Hire me <ArrowRight size={18} />
+        <button className=" mt-10 h-14 w-38 bg-orange-500 rounded-full flex items-center gap-10 justify-center hover:scale-105 transition-transform duration-300">
+          Hire Me
+          <span className="text-white text-lg">→</span>
         </button>
         <div className="flex gap-14 mt-20 text-gray-300">
           <div>

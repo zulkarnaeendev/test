@@ -20,6 +20,9 @@ const Router = createBrowserRouter([
       { path: "contact", Component: Contact  },
     ],
   },
-]);
+], {
+  basename: "/Test",
+});
 
 export default Router;
+

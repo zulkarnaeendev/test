@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
 import SideLabel from "../components/SideLabel";
 
 const Awards = () => {
@@ -13,8 +12,8 @@ const Awards = () => {
           Hello, my name is Pavel Subba and I am UX/UI designer and
           front-end developer working via developer 9 years.
         </p>
-        <button className="flex items-center gap-3 bg-orange-500 px-6 py-3 rounded-full w-fit">
-          View behance <ArrowRight size={18} />
+        <button className="h-14 w-28 bg-orange-500 rounded-full flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <span className="text-white text-lg">→</span>
         </button>
       </div>
       <div className="p-16">
