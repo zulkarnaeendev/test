@@ -39,11 +39,9 @@ const Contact = () => {
                 <div className="group relative">
                   <input type="text" placeholder="NAME" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-[#a54c3a] transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40" />
                 </div>
-
                 <div className="group relative">
                   <input type="email" placeholder="EMAIL *" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-[#a54c3a] transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40" />
                 </div>
-
                 <div className="group relative">
                   <textarea rows="1" placeholder="MESSAGE *" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-[#a54c3a] transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40 resize-none"></textarea>
                 </div>
