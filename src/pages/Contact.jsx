@@ -27,25 +27,27 @@ const Contact = () => {
               jump on <span className="text-orange-500 underline decoration-1 underline-offset-12">conversation</span> chat <br />
               with me.
             </h2>
-            <div className="flex flex-col md:flex-row justify-between items-start gap-10 p-10">
-              <div className="md:mt-24 space-y-4 max-w-62.5">
-                <p className="text-[10px] uppercase tracking-widest font-bold opacity-80">Send a brief</p>
-                <p className="text-[10px] leading-relaxed opacity-40">
-                  I recommend filling out a brief to assess the cost of the project.
+            <div className="flex flex-col md:flex-row  gap-20 p-10 w-196">
+              <div className="md:mt-24 space-y-4 shrink-0">
+                <p className="text-[10px] uppercase tracking-widest opacity-80 font-bold">Send a brief</p>
+                <p className="text-[10px] leading-relaxed opacity-40 max-w-75">
+                  I recommend filling out a brief to assess the cost of the project. <br />
                   <a href="#" className="text-orange-500 underline ml-1">Brief</a>
                 </p>
               </div>
-              <form className="w-full md:max-w-lg space-y-10">
+              <form className="flex-1 space-y-12">
                 <div className="group relative">
-                  <input type="text" placeholder="NAME" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-orange-500 transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40" />
+                  <input type="text" placeholder="NAME" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-[#a54c3a] transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40" />
                 </div>
+
                 <div className="group relative">
-                  <input type="email" placeholder="EMAIL *" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-orange-500 transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40" />
+                  <input type="email" placeholder="EMAIL *" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-[#a54c3a] transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40" />
                 </div>
+
                 <div className="group relative">
-                  <textarea rows="1" placeholder="MESSAGE *" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-orange-500 transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40 resize-none"></textarea>
+                  <textarea rows="1" placeholder="MESSAGE *" className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-[#a54c3a] transition-all text-xs tracking-widest placeholder:text-[10px] placeholder:opacity-40 resize-none"></textarea>
                 </div>
-                <div className="flex justify-start">
+                <div className="pt-6">
                   <button type="submit" className="h-14 w-28 bg-orange-500 rounded-full flex items-center justify-center hover:scale-105 transition-transform duration-300">
                     <span className="text-white text-xl">→</span>
                   </button>
